@@ -1,5 +1,4 @@
 # 3D Graphics Renderer
-[github.com/adam-ayan/3d-graphics-renderer]
 
 - Ongoing C++ application that processes 3D vertex input data to render accurate images of polyhedra, supporting multiple file formats, dynamic transformations, and customizable camera perspectives for interactive visualization.
 - Implements comprehensive core vector math operations including dot, cross, and normalized products, along with an early-stage rendering pipeline designed modularly to allow flexible experimentation with shading, projection, and geometric algorithms.
