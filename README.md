@@ -2,22 +2,21 @@ Note: This project is ongoing. It is just recently imported here from my local m
 
 # 3D Graphics Renderer
 
-A C++ application that renders 3D polyhedra from vertex input data, supporting multiple file formats, dynamic transformations, and customizable camera perspectives for interactive visualization. The renderer implements core vector math operations (dot, cross, normalization) and a modular rendering pipeline built entirely from scratch, with OpenGL used only for final 2D display.
+A C++ application that draws 3D polyhedra from vertex input data, can read multiple file formats, and lets the user rotate, scale, and move the shapes while adjusting the camera view. The renderer performs vector math operations like dot and cross products, as well as normalization, and all steps of converting 3D data into a 2D image are written from scratch, with OpenGL used only to display the final image.
 
 Tech Stack:
 - Language: C++
 - Tools: OpenGL (display), Docker (development environment)
-- Concepts: Vector math, computational geometry, modular rendering pipeline
+- Concepts: Vector math, computational geometry, step-by-step rendering process
 
 Skills:
-- Bottom-up graphics programming
+- Writing graphics code from the ground up
 - Computational geometry and linear algebra
-- System and software architecture
-- Reproducible builds and cross-platform testing
-- Project organization for maintainable and scalable code
+- Organizing code for clarity and maintenance
+- Setting up reproducible builds and cross-platform testing
 
 Future Work:
-- Implement lighting and shading models
-- Add texture mapping support
-- Optimize performance for larger models
-- Expand renderer for real-time interactive scenes
+- Add lighting and shading effects
+- Support texture mapping
+- Make the renderer faster for larger models
+- Allow real-time interaction with scenes
