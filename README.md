@@ -12,11 +12,15 @@ A C++ project for processing 3D vertex input data to construct and display polyh
 
 \## Project Overview
 
+
+
 This project explores the fundamental principles of 3D graphics programming, computational geometry, and linear algebra by building a rendering engine from scratch. It emphasizes understanding low-level mechanics rather than relying entirely on high-level graphics libraries. OpenGL is used solely to display the final 2D image.
 
 
 
 \## Goals
+
+
 
 \- Develop a robust, bottom-up understanding of 3D graphics rendering.
 
@@ -31,6 +35,8 @@ This project explores the fundamental principles of 3D graphics programming, com
 
 
 \## Objectives
+
+
 
 \- Implement classes and functions for core vector math operations (dot products, cross products, vector normalization).
 
@@ -48,6 +54,8 @@ This project explores the fundamental principles of 3D graphics programming, com
 
 \## Highlights
 
+
+
 \- Bottom-up rendering pipeline: built from scratch for maximum learning and control.
 
 \- Strong emphasis on computational geometry and linear algebra principles.
@@ -60,6 +68,8 @@ This project explores the fundamental principles of 3D graphics programming, com
 
 \## Build / Run
 
+
+
 \- Requires a C++17-compatible compiler.
 
 \- Compilation commands and detailed instructions will be added as the project progresses.
@@ -69,6 +79,8 @@ This project explores the fundamental principles of 3D graphics programming, com
 
 
 \## Future Plans
+
+
 
 \- Implement additional rendering features such as shading, lighting, and camera controls.
 
@@ -81,6 +93,8 @@ This project explores the fundamental principles of 3D graphics programming, com
 
 
 \## Repository
+
+
 
 \[View on GitHub](https://github.com/adam-ayan/3d-graphics-renderer)
 
