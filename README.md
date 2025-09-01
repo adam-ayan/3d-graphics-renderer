@@ -1,3 +1,5 @@
+Note: This project is ongoing. It is just recently imported here from my local machine. Additional updates are coming!
+
 # 3D Graphics Renderer
 
 - Ongoing C++ application that processes 3D vertex input data to render accurate images of polyhedra, supporting multiple file formats, dynamic transformations, and customizable camera perspectives for interactive visualization.
