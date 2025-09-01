@@ -2,9 +2,22 @@ Note: This project is ongoing. It is just recently imported here from my local m
 
 # 3D Graphics Renderer
 
-- Ongoing C++ application that processes 3D vertex input data to render accurate images of polyhedra, supporting multiple file formats, dynamic transformations, and customizable camera perspectives for interactive visualization.
-- Implements comprehensive core vector math operations including dot, cross, and normalized products, along with an early-stage rendering pipeline designed modularly to allow flexible experimentation with shading, projection, and geometric algorithms.
-- Rendering pipeline built entirely from scratch; OpenGL is used exclusively for displaying the final 2D image, giving full control over all stages of graphics computation, from vertex processing to rasterization.
-- Development environment containerized with Docker to ensure reproducible builds, facilitate cross-platform testing, and enable isolated experimentation with system dependencies and compiler configurations.
-- Future goals include implementing lighting and shading models, adding texture mapping support, optimizing performance for larger models, and expanding the renderer to handle real-time interactive scenes.
-- Demonstrates advanced skills in bottom-up graphics programming, computational geometry, linear algebra, system design, modular software architecture, and project organization for maintainable and scalable codebases.
+A C++ application that renders 3D polyhedra from vertex input data, supporting multiple file formats, dynamic transformations, and customizable camera perspectives for interactive visualization. The renderer implements core vector math operations (dot, cross, normalization) and a modular rendering pipeline built entirely from scratch, with OpenGL used only for final 2D display.
+
+Tech Stack:
+- Language: C++
+- Tools: OpenGL (display), Docker (development environment)
+- Concepts: Vector math, computational geometry, modular rendering pipeline
+
+Skills:
+- Bottom-up graphics programming
+- Computational geometry and linear algebra
+- System and software architecture
+- Reproducible builds and cross-platform testing
+- Project organization for maintainable and scalable code
+
+Future Work:
+- Implement lighting and shading models
+- Add texture mapping support
+- Optimize performance for larger models
+- Expand renderer for real-time interactive scenes
